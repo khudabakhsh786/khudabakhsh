@@ -1,0 +1,132 @@
+#title{
+    background-color: aqua;
+    
+}
+#title img{
+    width: 28%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 24%;
+    
+    
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding-bottom:4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#fff;
+}
+#title h1{
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+}
+.download-btn{
+    margin: 5% 2%;
+}
+#skill{
+    padding: 7%;
+    position: relative;
+    background-color: #fff;
+}
+.skill-row{
+    text-align: center;
+}
+.skill-row i{
+    font-size: 5rem;
+    padding: 7% ;
+    color: aqua;
+    
+}
+.skill-row p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.skill-row i:hover{
+    color:black;
+}
+#Home{
+    background-color:aqua;
+    text-align: center;
+    padding: 7%;
+}
+
+#Home img{
+  width: 10%;
+  height: 10%;
+}
+#Home h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    text-align: center;
+    background-color: aqua;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+ #favouate-teacher{
+    padding: 7%;
+    text-align:center ;
+}
+#favouate-teacher h1{
+   padding-top: 1%;
+}
+
+    .row-favouate-teacher{
+        padding-top: 4%;
+    }
+#contact{
+    background-color: aqua;
+    text-align: center;
+    padding: 100px;
+    padding: 7%;
+}
+#contact h3{
+ font-size: 2.8rem;
+ line-height: 1.5;
+ padding: 7%;
+ 
+}
+#contact .btn{
+    margin:5% 1% 0 ;
+}
+#footer{
+    text-align: center;
+    margin-top: 7%;
+}
+#footer i{
+    font-size: 40px;
+    margin:3% 1% ;
+}
+@media (max-width:1028px) {
+    #title img{
+        transform: rotate(0deg);
+        position: static;
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+    .navbar{
+        text-align: right;
+    }
+
+    
+}
